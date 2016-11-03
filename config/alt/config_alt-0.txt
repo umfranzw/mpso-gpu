@@ -1,0 +1,3 @@
+#
+#num_swarms, num_sparticles, num_dims,     max_iters,  omega,      omega_decay,      c1,       c2,       exchange_iters,    num_exchange,  num_reps,  benchmark_fcn, m,  cross_ratio,  mut_prob, tourn_size, max_vel, fitness_sample_interval
+64,           128,              16,            1000,          0.729,        1.0,       1.49445,      1.49445,      100,                 24,           1,         9,           4,   0.4,                0.4,     16,          100,    50

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\config_alt.txt" />
+    <None Include="config\config_ga.txt" />
+    <None Include="config\config_mcs.txt" />
+    <None Include="config\config_reg.txt" />
+    <None Include="config\config_tm.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bench_fcns.h" />
+    <ClInclude Include="include\buffers_alt.h" />
+    <ClInclude Include="include\buffers_ga.h" />
+    <ClInclude Include="include\buffers_mcs.h" />
+    <ClInclude Include="include\buffers_reg.h" />
+    <ClInclude Include="include\buffers_tm.h" />
+    <ClInclude Include="include\buffer_utils.h" />
+    <ClInclude Include="include\clhelper.h" />
+    <ClInclude Include="include\config_alt.h" />
+    <ClInclude Include="include\config_ga.h" />
+    <ClInclude Include="include\config_mcs.h" />
+    <ClInclude Include="include\config_reg.h" />
+    <ClInclude Include="include\config_tm.h" />
+    <ClInclude Include="include\config_utils.h" />
+    <ClInclude Include="include\devices.h" />
+    <ClInclude Include="include\drivers\alt\cross_mut\cross_mut_pbest_kernel_driver_alt.h" />
+    <ClInclude Include="include\drivers\alt\cross_mut\cross_mut_tourn_kernel_driver_alt.h" />
+    <ClInclude Include="include\drivers\alt\permute\permute_kernel_driver_alt.h" />
+    <ClInclude Include="include\drivers\alt\update_pos_vel\update_pos_vel_kernel_driver_alt.h" />
+    <ClInclude Include="include\drivers\common\find_min\find_min_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\find_min\find_min_vec_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\init_rot_matrix\init_rot_matrix_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\particle_init\particle_init_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\swap_particles\swap_particles_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_best_vals\update_best_vals_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f10_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f11_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f12_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f13_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f14_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f15_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f16_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f17_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f18_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f19_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f1_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f20_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f21_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f22_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f23_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f24_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f2_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f3_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f4_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f5_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f6_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f7_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f8_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\f9_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_fitness\update_fitness_shared_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_pos_vel\update_pos_vel_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\common\update_samples\update_samples_kernel_driver_common.h" />
+    <ClInclude Include="include\drivers\ga\crossover\crossover_kernel_driver_ga.h" />
+    <ClInclude Include="include\drivers\ga\cross_mut\cross_mut_pbest_kernel_driver_ga.h" />
+    <ClInclude Include="include\drivers\ga\cross_mut\cross_mut_tourn_kernel_driver_ga.h" />
+    <ClInclude Include="include\drivers\ga\mut_restore\mut_restore_kernel_driver_ga.h" />
+    <ClInclude Include="include\drivers\ga\particle_init\particle_init_kernel_driver_ga.h" />
+    <ClInclude Include="include\drivers\ga\permute\permute_kernel_driver_ga.h" />
+    <ClInclude Include="include\drivers\ga\update_best_vals\update_best_vals_kernel_driver_ga.h" />
+    <ClInclude Include="include\drivers\ga\update_best_vals\update_best_vals_kernel_driver_spacial.h" />
+    <ClInclude Include="include\drivers\ga\update_pos_vel\update_pos_vel_kernel_driver_ga.h" />
+    <ClInclude Include="include\drivers\mcs\crossover\crossover_kernel_driver_mcs.h" />
+    <ClInclude Include="include\drivers\mcs\mut_restore\mut_restore_kernel_driver_mcs.h" />
+    <ClInclude Include="include\drivers\mcs\particle_init\particle_init_kernel_driver_mcs.h" />
+    <ClInclude Include="include\drivers\mcs\permute\permute_kernel_driver_mcs.h" />
+    <ClInclude Include="include\drivers\mcs\update_best_vals\update_best_vals_kernel_driver_mcs.h" />
+    <ClInclude Include="include\drivers\mcs\update_pos_vel\update_pos_vel_kernel_driver_mcs.h" />
+    <ClInclude Include="include\drivers\tm\swap_particles\swap_particles_kernel_driver_tm.h" />
+    <ClInclude Include="include\drivers\tm\update_fitness\update_fitness_shared_kernel_driver_tm.h" />
+    <ClInclude Include="include\drivers\tm\update_pos_vel_hybrid\update_pos_vel_hybrid_kernel_driver_tm.h" />
+    <ClInclude Include="include\drivers\wg_sizer.h" />
+    <ClInclude Include="include\global_constants.h" />
+    <ClInclude Include="include\kernels_alt.h" />
+    <ClInclude Include="include\kernels_ga.h" />
+    <ClInclude Include="include\kernels_mcs.h" />
+    <ClInclude Include="include\kernels_reg.h" />
+    <ClInclude Include="include\kernels_tm.h" />
+    <ClInclude Include="include\mpso_alt.h" />
+    <ClInclude Include="include\mpso_ga.h" />
+    <ClInclude Include="include\mpso_mcs.h" />
+    <ClInclude Include="include\mpso_reg.h" />
+    <ClInclude Include="include\mpso_tm.h" />
+    <ClInclude Include="include\pretty_printer.h" />
+    <ClInclude Include="include\timer.h" />
+    <ClInclude Include="include\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bench_fcns.c" />
+    <ClCompile Include="src\buffers_alt.c" />
+    <ClCompile Include="src\buffers_ga.c" />
+    <ClCompile Include="src\buffers_mcs.c" />
+    <ClCompile Include="src\buffers_reg.c" />
+    <ClCompile Include="src\buffers_tm.c" />
+    <ClCompile Include="src\buffer_utils.c" />
+    <ClCompile Include="src\clhelper.c" />
+    <ClCompile Include="src\config_alt.c" />
+    <ClCompile Include="src\config_ga.c" />
+    <ClCompile Include="src\config_mcs.c" />
+    <ClCompile Include="src\config_reg.c" />
+    <ClCompile Include="src\config_tm.c" />
+    <ClCompile Include="src\config_utils.c" />
+    <ClCompile Include="src\devices.c" />
+    <ClCompile Include="src\drivers\alt\cross_mut\cross_mut_pbest_kernel_driver_alt.c" />
+    <ClCompile Include="src\drivers\alt\cross_mut\cross_mut_tourn_kernel_driver_alt.c" />
+    <ClCompile Include="src\drivers\alt\permute\permute_kernel_driver_alt.c" />
+    <ClCompile Include="src\drivers\alt\update_pos_vel\update_pos_vel_kernel_driver_alt.c" />
+    <ClCompile Include="src\drivers\common\find_best_worst\find_best_worst_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\find_min\find_min_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\init_rot_matrix\init_rot_matrix_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\particle_init\particle_init_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\swap_particles\swap_particles_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_best_vals\update_best_vals_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f10_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f11_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f12_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f13_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f14_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f15_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f16_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f17_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f18_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f19_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f1_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f20_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f21_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f22_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f23_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f24_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f2_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f3_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f4_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f5_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f6_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f7_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f8_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\f9_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_fitness\update_fitness_shared_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_pos_vel\update_pos_vel_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\common\update_samples\update_samples_kernel_driver_common.c" />
+    <ClCompile Include="src\drivers\ga\crossover\crossover_kernel_driver_ga.c" />
+    <ClCompile Include="src\drivers\ga\cross_mut\cross_mut_pbest_kernel_driver_ga.c" />
+    <ClCompile Include="src\drivers\ga\cross_mut\cross_mut_tourn_kernel_driver_ga.c" />
+    <ClCompile Include="src\drivers\ga\mut_restore\mut_restore_kernel_driver_ga.c" />
+    <ClCompile Include="src\drivers\ga\particle_init\particle_init_kernel_driver_ga.c" />
+    <ClCompile Include="src\drivers\ga\permute\permute_kernel_driver_ga.c" />
+    <ClCompile Include="src\drivers\ga\update_best_vals\update_best_vals_kernel_driver_ga.c" />
+    <ClCompile Include="src\drivers\ga\update_best_vals\update_best_vals_kernel_driver_spacial.c" />
+    <ClCompile Include="src\drivers\ga\update_pos_vel\update_pos_vel_kernel_driver_ga.c" />
+    <ClCompile Include="src\drivers\mcs\crossover\crossover_kernel_driver_mcs.c" />
+    <ClCompile Include="src\drivers\mcs\mut_restore\mut_restore_kernel_driver_mcs.c" />
+    <ClCompile Include="src\drivers\mcs\particle_init\particle_init_kernel_driver_mcs.c" />
+    <ClCompile Include="src\drivers\mcs\permute\permute_kernel_driver_mcs.c" />
+    <ClCompile Include="src\drivers\mcs\update_best_vals\update_best_vals_kernel_driver_mcs.c" />
+    <ClCompile Include="src\drivers\mcs\update_pos_vel\update_pos_vel_kernel_driver_mcs.c" />
+    <ClCompile Include="src\drivers\tm\swap_particles\swap_particles_kernel_driver_tm.c" />
+    <ClCompile Include="src\drivers\tm\update_fitness\update_fitness_shared_kernel_driver_tm.c" />
+    <ClCompile Include="src\drivers\tm\update_pos_vel_hybrid\update_pos_vel_hybrid_kernel_driver_tm.c" />
+    <ClCompile Include="src\drivers\wg_sizer.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\mpso_alt.c" />
+    <ClCompile Include="src\mpso_ga.c" />
+    <ClCompile Include="src\mpso_mcs.c" />
+    <ClCompile Include="src\mpso_reg.c" />
+    <ClCompile Include="src\mpso_tm.c" />
+    <ClCompile Include="src\pretty_printer.c" />
+    <ClCompile Include="src\timer.cpp" />
+    <ClCompile Include="src\utils.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FF2EE40C-E055-4F9B-B497-584FB6DE9143}</ProjectGuid>
+    <RootNamespace>mpsogpu</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(AMDAPPSDKROOT)\include;C:\Users\Wayne\Documents\Visual Studio 2010\Projects\mpso-gpu\mpso-gpu\include</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(AMDAPPSDKROOT)\lib\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(AMDAPPSDKROOT)\include</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(AMDAPPSDKROOT)\lib\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

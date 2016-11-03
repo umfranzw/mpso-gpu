@@ -1,0 +1,3 @@
+# To eliminate crossover, just set cross_iters > max_iters
+#num_swarms, num_sparticles, num_dims,     max_iters,  omega,      omega_decay,      c1,       c2,       exchange_iters,    num_exchange,  num_reps,  benchmark_fcn, m,  cross_iters, unhealthy_ratio, unhealthy_iters, mut_prob, max_vel, fitness_sample_interval
+64,           128,              32,        1000,       0.729,        1.0,            1.49445,      1.49445,      100,               24,            1,          21,           4, 100,          0.4, 16, 0.4, 100.0, 50

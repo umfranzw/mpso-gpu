@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\drivers">
+      <UniqueIdentifier>{ad49d2de-aced-4a23-974a-eaa0dd318abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers">
+      <UniqueIdentifier>{f14fc2c9-e88f-45c3-b997-da9638966b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7e0ffa48-7ed3-4f98-a20a-547ef1db71ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernels">
+      <UniqueIdentifier>{88620399-8c20-4f87-b363-c5bf98d076c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common">
+      <UniqueIdentifier>{220cf78d-1fe3-4e2d-a5c9-4b75d4940173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\find_best_worst">
+      <UniqueIdentifier>{c40db67c-1fda-4bff-8757-3851f188e0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\particle_init">
+      <UniqueIdentifier>{7ec26f65-91d0-4322-a920-dea8800da534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\swap_particles">
+      <UniqueIdentifier>{9825fdab-94a9-4bb3-b142-31ed3f7fbf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\update_best_vals">
+      <UniqueIdentifier>{873e16e5-e0f8-4323-a65c-be130de125c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\update_fitness">
+      <UniqueIdentifier>{7c516a7c-f218-40a6-8572-51fa7d9f9d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\update_pos_vel">
+      <UniqueIdentifier>{68308bf5-8b0e-4c9f-b3b6-afe5e113381c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\init_rot_matrix">
+      <UniqueIdentifier>{ff3dfbb9-52c0-40f4-ad49-12600dd5f13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common">
+      <UniqueIdentifier>{d6c7fd2a-02fb-4735-932e-ce7dacb03aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\particle_init">
+      <UniqueIdentifier>{4e814fcc-e0a8-464a-8410-294cca504a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\swap_particles">
+      <UniqueIdentifier>{d0b92f6b-6176-47af-a8ce-91823563303e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\update_best_vals">
+      <UniqueIdentifier>{d09e866c-9e9a-41e8-b73e-5dc7d99801d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\update_fitness">
+      <UniqueIdentifier>{6c4b1722-b59d-4e4b-9fd6-c940083c61c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\update_pos_vel">
+      <UniqueIdentifier>{8699d282-0249-4157-803c-08805b6f88fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\init_rot_matrix">
+      <UniqueIdentifier>{5fa8bd30-9bc7-4846-9e9e-7782c98a96b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\find_best_worst">
+      <UniqueIdentifier>{a5fde7ae-35c3-4d93-8b3f-ceb9324278c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\alt">
+      <UniqueIdentifier>{f998dbd3-8657-42aa-a0a6-06b8cb0020c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\alt\cross_mut">
+      <UniqueIdentifier>{7228ddda-2af5-4a84-98fe-63ff2d91b4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\alt\update_pos_vel">
+      <UniqueIdentifier>{4992474e-a028-4a78-b3a0-78f479a4e5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\alt">
+      <UniqueIdentifier>{7a841125-0e66-4fbf-abcc-680e84d3e886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\alt\cross_mut">
+      <UniqueIdentifier>{e8981298-0cb7-4f4b-9a1e-977bcc0dff23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\alt\update_pos_vel">
+      <UniqueIdentifier>{4593be9c-ac74-4854-9fcd-170fb2e6e208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\mcs">
+      <UniqueIdentifier>{b2dc994f-4fe7-430f-a32d-4107ea8883de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\mcs\crossover">
+      <UniqueIdentifier>{b4693e07-3ace-4c92-9656-31ac8d1c6da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\mcs\mut_restore">
+      <UniqueIdentifier>{2062099d-1993-43cf-9163-6d7774437ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\mcs\particle_init">
+      <UniqueIdentifier>{f21636f6-8c40-4c3d-b4f5-09fecd830cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\mcs\update_best_vals">
+      <UniqueIdentifier>{1da9bf4e-b91a-4c05-9a84-006963b9c1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\mcs\update_pos_vel">
+      <UniqueIdentifier>{385dacfc-49cd-4cd2-bb6d-f5204a2c96c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\mcs">
+      <UniqueIdentifier>{feba3e11-6c85-43d1-9ac9-aa3d1f741235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\mcs\crossover">
+      <UniqueIdentifier>{619a7b72-fbdb-46df-9974-f8d743e38b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\mcs\mut_restore">
+      <UniqueIdentifier>{3b37d3ed-bdd8-4fdd-85bb-fc8988f00dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\mcs\update_pos_vel">
+      <UniqueIdentifier>{795bb437-52bf-45fa-8af3-4a7b1f01ce94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\mcs\update_best_vals">
+      <UniqueIdentifier>{8a5f1041-eb2c-46c9-abc2-50730c79917f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\mcs\particle_init">
+      <UniqueIdentifier>{f1f2e131-b97b-4550-b502-020dfcd7eff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\reg">
+      <UniqueIdentifier>{fd9f8696-1bf5-4be2-9843-c57b7b90921b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\tm">
+      <UniqueIdentifier>{ec0d2975-7bc0-4e6b-b09e-e4b5599d3524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\reg">
+      <UniqueIdentifier>{6e58dcd8-0c72-4a5c-8768-b720bc440a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\tm">
+      <UniqueIdentifier>{9d34d3dc-9b65-4712-b02a-f5678ec5344e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\tm\update_fitness">
+      <UniqueIdentifier>{5583c91c-9601-4e00-b7ab-97d88b7fadcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\tm\update_fitness">
+      <UniqueIdentifier>{acd5f9c0-5a1a-4509-bcb5-d68f4bc8e898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\mcs\permute">
+      <UniqueIdentifier>{2ac327bc-c110-438f-b9a3-50f8984867a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\mcs\permute">
+      <UniqueIdentifier>{40990678-d50a-4b8e-b1a0-ee032ede12c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\tm\swap_particles">
+      <UniqueIdentifier>{35cb6cd0-4e2b-40b8-a471-44869c9506a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\tm\update_pos_vel_hybrid">
+      <UniqueIdentifier>{cf0938e0-f37d-4078-a5db-ea492689e810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\tm\update_pos_vel_hybrid">
+      <UniqueIdentifier>{d20e17a7-9a81-4b79-b202-1dfb527f1e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\tm\swap_particles">
+      <UniqueIdentifier>{5581a9c7-e8d9-4a86-b667-ac0bfc6fb9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\find_min">
+      <UniqueIdentifier>{68c65a42-fa19-4d3a-baaf-4d26e023088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\find_min">
+      <UniqueIdentifier>{129da9b8-a888-4b64-97a5-05e3101f6d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\ga">
+      <UniqueIdentifier>{78635d76-4ec6-4eab-94d5-804e2a0fbddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\ga">
+      <UniqueIdentifier>{b255fd76-9ede-4351-9f3a-ae32837dcdf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\common\update_samples">
+      <UniqueIdentifier>{d0f6c6a7-1ef4-4ce9-bf88-2a50fba2d2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\common\update_samples">
+      <UniqueIdentifier>{838a588e-5f10-46a6-b59f-6f8cf34a9cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\alt\permute">
+      <UniqueIdentifier>{3a9dc768-bfe6-4764-8a31-b8020208cc42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\ga\cross_mut">
+      <UniqueIdentifier>{dd3907a2-898c-4c06-821a-0281c216d657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\ga\permute">
+      <UniqueIdentifier>{afa0b97a-14d2-4004-bd9b-3c7b5a970737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\alt\permute">
+      <UniqueIdentifier>{0682cb0d-5422-492b-9229-b8445200c090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\ga\cross_mut">
+      <UniqueIdentifier>{b3b11097-dbb9-411c-ab2a-eb105c031f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\ga\permute">
+      <UniqueIdentifier>{f7f04fdc-a442-4a39-998c-5bca2799a167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\ga\crossover">
+      <UniqueIdentifier>{be6a24b9-4ab4-4fbd-9622-50012128033b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\ga\mut_restore">
+      <UniqueIdentifier>{eab9aeff-73c2-4467-b3fa-bf202fca815b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\ga\particle_init">
+      <UniqueIdentifier>{2220c7a9-a9b0-4b95-a991-3f802632c2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\ga\update_best_vals">
+      <UniqueIdentifier>{b7e1c23f-d596-4752-ba79-077cba5d05c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drivers\ga\update_pos_vel">
+      <UniqueIdentifier>{8309efeb-7ffa-48ab-8387-ce51c9788c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\ga\crossover">
+      <UniqueIdentifier>{8f66eca2-d1a1-43da-8932-7054f61bac56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\ga\mut_restore">
+      <UniqueIdentifier>{32773288-fe8b-4d9d-b6b5-c8483d97f756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\ga\particle_init">
+      <UniqueIdentifier>{1f088743-c6e9-4cf6-ae52-53b7ac08e92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\ga\update_best_vals">
+      <UniqueIdentifier>{d0e1ed5f-42f7-4fc6-9135-2ae41094b275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drivers\ga\update_pos_vel">
+      <UniqueIdentifier>{e2e83ef2-941e-41c3-91b8-09f379de643c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\config_alt.txt">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="config\config_mcs.txt">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="config\config_reg.txt">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="config\config_tm.txt">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="config\config_ga.txt">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bench_fcns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buffers_alt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buffers_mcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buffers_reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buffers_tm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config_alt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config_mcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config_reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config_tm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\devices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\global_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kernels_alt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kernels_mcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kernels_reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kernels_tm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpso_alt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpso_mcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpso_reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpso_tm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pretty_printer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buffer_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\alt\update_pos_vel\update_pos_vel_kernel_driver_alt.h">
+      <Filter>Header Files\drivers\alt\update_pos_vel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\init_rot_matrix\init_rot_matrix_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\init_rot_matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\particle_init\particle_init_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\particle_init</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_best_vals\update_best_vals_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_best_vals</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f10_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f11_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f12_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f13_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f14_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f15_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f16_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f17_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f18_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f19_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f1_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f20_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f2_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f3_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f4_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f5_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f6_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f7_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f8_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f9_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\update_fitness_shared_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_pos_vel\update_pos_vel_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_pos_vel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\mcs\crossover\crossover_kernel_driver_mcs.h">
+      <Filter>Header Files\drivers\mcs\crossover</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\mcs\mut_restore\mut_restore_kernel_driver_mcs.h">
+      <Filter>Header Files\drivers\mcs\mut_restore</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\mcs\particle_init\particle_init_kernel_driver_mcs.h">
+      <Filter>Header Files\drivers\mcs\particle_init</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\mcs\update_best_vals\update_best_vals_kernel_driver_mcs.h">
+      <Filter>Header Files\drivers\mcs\update_best_vals</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\mcs\update_pos_vel\update_pos_vel_kernel_driver_mcs.h">
+      <Filter>Header Files\drivers\mcs\update_pos_vel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\tm\swap_particles\swap_particles_kernel_driver_tm.h">
+      <Filter>Header Files\drivers\tm\swap_particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\tm\update_pos_vel_hybrid\update_pos_vel_hybrid_kernel_driver_tm.h">
+      <Filter>Header Files\drivers\tm\update_pos_vel_hybrid</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\tm\update_fitness\update_fitness_shared_kernel_driver_tm.h">
+      <Filter>Header Files\drivers\tm\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\find_min\find_min_vec_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\find_min</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\find_min\find_min_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\find_best_worst</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buffers_ga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config_ga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kernels_ga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpso_ga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\mcs\permute\permute_kernel_driver_mcs.h">
+      <Filter>Header Files\drivers\mcs\permute</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\alt\cross_mut\cross_mut_pbest_kernel_driver_alt.h">
+      <Filter>Header Files\drivers\alt\cross_mut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\alt\cross_mut\cross_mut_tourn_kernel_driver_alt.h">
+      <Filter>Header Files\drivers\alt\cross_mut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\swap_particles\swap_particles_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\swap_particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f21_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f22_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f23_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_fitness\f24_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\common\update_samples\update_samples_kernel_driver_common.h">
+      <Filter>Header Files\drivers\common\update_samples</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\alt\permute\permute_kernel_driver_alt.h">
+      <Filter>Header Files\drivers\alt\permute</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\cross_mut\cross_mut_pbest_kernel_driver_ga.h">
+      <Filter>Header Files\drivers\ga\cross_mut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\cross_mut\cross_mut_tourn_kernel_driver_ga.h">
+      <Filter>Header Files\drivers\ga\cross_mut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\crossover\crossover_kernel_driver_ga.h">
+      <Filter>Header Files\drivers\ga\crossover</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\mut_restore\mut_restore_kernel_driver_ga.h">
+      <Filter>Header Files\drivers\ga\mut_restore</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\update_pos_vel\update_pos_vel_kernel_driver_ga.h">
+      <Filter>Header Files\drivers\ga\update_pos_vel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\update_best_vals\update_best_vals_kernel_driver_ga.h">
+      <Filter>Header Files\drivers\ga\update_best_vals</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\particle_init\particle_init_kernel_driver_ga.h">
+      <Filter>Header Files\drivers\ga\particle_init</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\permute\permute_kernel_driver_ga.h">
+      <Filter>Header Files\drivers\ga\permute</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\wg_sizer.h">
+      <Filter>Header Files\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drivers\ga\update_best_vals\update_best_vals_kernel_driver_spacial.h">
+      <Filter>Header Files\drivers\ga\update_best_vals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bench_fcns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffers_alt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffers_mcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffers_reg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffers_tm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clhelper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config_alt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config_mcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config_reg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config_tm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\devices.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpso_alt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpso_mcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpso_reg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpso_tm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pretty_printer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffer_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\alt\update_pos_vel\update_pos_vel_kernel_driver_alt.c">
+      <Filter>Source Files\drivers\alt\update_pos_vel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\find_best_worst\find_best_worst_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\find_best_worst</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\init_rot_matrix\init_rot_matrix_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\init_rot_matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\particle_init\particle_init_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\particle_init</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_best_vals\update_best_vals_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_best_vals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f10_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f11_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f12_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f13_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f14_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f15_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f16_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f17_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f18_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f19_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f1_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f20_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f2_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f3_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f4_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f5_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f6_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f7_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f8_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f9_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\update_fitness_shared_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_pos_vel\update_pos_vel_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_pos_vel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\mcs\crossover\crossover_kernel_driver_mcs.c">
+      <Filter>Source Files\drivers\mcs\crossover</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\mcs\mut_restore\mut_restore_kernel_driver_mcs.c">
+      <Filter>Source Files\drivers\mcs\mut_restore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\mcs\particle_init\particle_init_kernel_driver_mcs.c">
+      <Filter>Source Files\drivers\mcs\particle_init</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\mcs\permute\permute_kernel_driver_mcs.c">
+      <Filter>Source Files\drivers\mcs\permute</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\mcs\update_best_vals\update_best_vals_kernel_driver_mcs.c">
+      <Filter>Source Files\drivers\mcs\update_best_vals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\mcs\update_pos_vel\update_pos_vel_kernel_driver_mcs.c">
+      <Filter>Source Files\drivers\mcs\update_pos_vel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\tm\update_pos_vel_hybrid\update_pos_vel_hybrid_kernel_driver_tm.c">
+      <Filter>Source Files\drivers\tm\update_pos_vel_hybrid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\tm\swap_particles\swap_particles_kernel_driver_tm.c">
+      <Filter>Source Files\drivers\tm\swap_particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\tm\update_fitness\update_fitness_shared_kernel_driver_tm.c">
+      <Filter>Source Files\drivers\tm\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\find_min\find_min_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\find_min</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffers_ga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config_ga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpso_ga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\alt\cross_mut\cross_mut_pbest_kernel_driver_alt.c">
+      <Filter>Source Files\drivers\alt\cross_mut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\alt\cross_mut\cross_mut_tourn_kernel_driver_alt.c">
+      <Filter>Source Files\drivers\alt\cross_mut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\swap_particles\swap_particles_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\swap_particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f21_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f22_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f23_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_fitness\f24_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\common\update_samples\update_samples_kernel_driver_common.c">
+      <Filter>Source Files\drivers\common\update_samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\alt\permute\permute_kernel_driver_alt.c">
+      <Filter>Source Files\drivers\alt\permute</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\cross_mut\cross_mut_pbest_kernel_driver_ga.c">
+      <Filter>Source Files\drivers\ga\cross_mut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\cross_mut\cross_mut_tourn_kernel_driver_ga.c">
+      <Filter>Source Files\drivers\ga\cross_mut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\crossover\crossover_kernel_driver_ga.c">
+      <Filter>Source Files\drivers\ga\crossover</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\mut_restore\mut_restore_kernel_driver_ga.c">
+      <Filter>Source Files\drivers\ga\mut_restore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\update_pos_vel\update_pos_vel_kernel_driver_ga.c">
+      <Filter>Source Files\drivers\ga\update_pos_vel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\update_best_vals\update_best_vals_kernel_driver_ga.c">
+      <Filter>Source Files\drivers\ga\update_best_vals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\particle_init\particle_init_kernel_driver_ga.c">
+      <Filter>Source Files\drivers\ga\particle_init</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\permute\permute_kernel_driver_ga.c">
+      <Filter>Source Files\drivers\ga\permute</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\wg_sizer.c">
+      <Filter>Source Files\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\ga\update_best_vals\update_best_vals_kernel_driver_spacial.c">
+      <Filter>Source Files\drivers\ga\update_best_vals</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
